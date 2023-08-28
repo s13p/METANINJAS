@@ -1,0 +1,710 @@
+"use strict";
+(self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
+	[567], {
+		7846: function(n, e, t) {
+			t.d(e, {
+				i: function() {
+					return d
+				},
+				w: function() {
+					return l
+				}
+			});
+			var i = t(7297),
+				r = t(1472),
+				a = t(7379);
+
+			function o() {
+				let n = (0, i.Z)(["\n  width: 100%;\n  max-width: 100%;\n\n  visibility: hidden;\n  &.show {\n    visibility: visible;\n  }\n  overflow: hidden;\n"]);
+				return o = function() {
+					return n
+				}, n
+			}
+
+			function s() {
+				let n = (0, i.Z)(["\n  width: 100vw;\n  height: 100vh;\n"]);
+				return s = function() {
+					return n
+				}, n
+			}
+			let l = (0, a.ZP)(r.animated.div).withConfig({
+					componentId: "sc-8e4c0d43-0"
+				})(o()),
+				d = a.ZP.div.withConfig({
+					componentId: "sc-8e4c0d43-1"
+				})(s())
+		},
+		6542: function(n, e, t) {
+			t.d(e, {
+				RU: function() {
+					return G
+				},
+				sD: function() {
+					return T
+				},
+				ZP: function() {
+					return X
+				}
+			});
+			var i = t(5893),
+				r = t(7294),
+				a = t(6615),
+				o = t(7297),
+				s = t(7379),
+				l = t(6892);
+
+			function d() {
+				let n = (0, o.Z)(["\n  background: rgba(36, 36, 36, 0.95);\n  width: 100%;\n  position: relative;\n  width: 100vw;\n  min-height: 740px;\n  padding: 80px;\n\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-between;\n  align-content: space-between;\n\n  @media all and (max-width: 1219px) {\n    padding: 80px 60px;\n  }\n\n  @media all and (max-width: 980px) {\n    padding: 60px;\n  }\n\n  @media all and (max-width: 840px) {\n    padding: 60px 30px;\n  }\n\n  @media all and (max-width: 840px) {\n    padding: 110px 20px 80px;\n  }\n\n  @media all and (max-width: 1100px) {\n    min-height: auto;\n  }\n\n  @media all and (max-width: 360px) {\n    padding: 110px 10px 80px;\n  }\n"]);
+				return d = function() {
+					return n
+				}, n
+			}
+
+			function c() {
+				let n = (0, o.Z)(["\n  width: 216px;\n  @media all and (max-width: 980px) {\n    width: 180px;\n    svg {\n      width: 180px;\n    }\n  }\n\n  @media all and (max-width: 670px) {\n    width: 100%;\n    svg {\n      margin: 0 auto;\n      width: 203px;\n    }\n  }\n"]);
+				return c = function() {
+					return n
+				}, n
+			}
+
+			function p() {
+				let n = (0, o.Z)(["\n  display: flex;\n  width: 100%;\n  justify-content: center;\n  .separator {\n    .point,\n    .bord {\n      transform: scaleX(1) translateZ(0);\n    }\n    .bord {\n      background: #f9f9f9;\n      opacity: 0.2;\n    }\n  }\n  .pisep {\n    padding: 20px 0 0 36px;\n    width: 100%;\n  }\n\n  @media all and (max-width: 670px) {\n    flex-wrap: wrap;\n    .pisep {\n      display: none;\n    }\n  }\n"]);
+				return p = function() {
+					return n
+				}, n
+			}
+
+			function f() {
+				let n = (0, o.Z)(["\n  padding: 1px 0 0;\n  flex-shrink: 0;\n  .tlinks {\n    a {\n      display: block;\n      font-family: Rubik;\n      font-size: 15px;\n      line-height: 16px;\n      text-align: right;\n      letter-spacing: 0.2em;\n      font-weight: 600;\n      text-transform: uppercase;\n      white-space: nowrap;\n      position: relative;\n      padding: 12px 5px;\n\n      color: #ffffff;\n      span {\n        display: block;\n      }\n      & > span {\n        position: relative;\n        overflow: hidden;\n      }\n\n      @media (pointer: fine) {\n        .tlinksoh {\n          display: block;\n        }\n        span > span {\n          transition: transform 0.5s cubic-bezier(0.25, 0.005, 0.24, 0.905);\n        }\n        &:hover {\n          .tlinksov {\n            transform: translate3d(0, -100%, 0);\n          }\n          .tlinksoh {\n            transform: translate3d(0, 0%, 0);\n          }\n        }\n      }\n    }\n  }\n\n  .tlinksoh {\n    display: none;\n    color: ", ";\n    position: absolute;\n    transform: translate3d(0, 100%, 0);\n    top: 0;\n    right: 0;\n  }\n\n  @media all and (max-width: 670px) {\n    padding: 19px 0 0;\n    .tlinks {\n      a {\n        text-align: center;\n      }\n    }\n    .tlinksoh {\n      right: 0;\n      left: 0;\n    }\n  }\n"]);
+				return f = function() {
+					return n
+				}, n
+			}
+
+			function x() {
+				let n = (0, o.Z)(["\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n  text-align: center;\n\n  img {\n    max-width: 516px;\n  }\n  .subtitle {\n    color: #f9f9f9;\n    padding: 15px 0 0;\n  }\n\n  @media all and (max-width: 1100px) {\n    display: none;\n  }\n"]);
+				return x = function() {
+					return n
+				}, n
+			}
+
+			function h() {
+				let n = (0, o.Z)(["\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-end;\n  width: 100%;\n\n  @media all and (max-width: 1100px) {\n    flex-wrap: wrap;\n    justify-content: center;\n  }\n\n  @media all and (max-width: 980px) {\n    flex-wrap: wrap;\n  }\n\n  @media all and (max-width: 670px) {\n    padding: 65px 0 0;\n    justify-content: center;\n    text-align: center;\n  }\n"]);
+				return h = function() {
+					return n
+				}, n
+			}
+
+			function u() {
+				let n = (0, o.Z)(["\n  ul {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n    li {\n      display: flex;\n      align-items: center;\n    }\n  }\n  a {\n    position: relative;\n    display: block;\n    font-size: 11px;\n    line-height: 18px;\n    letter-spacing: 2px;\n    color: #fff;\n    padding: 10px 5px;\n    @media (pointer: fine) {\n      transition: color 0.3s cubic-bezier(0.25, 0.005, 0.24, 0.905);\n      &:hover {\n        color: ", ";\n      }\n    }\n  }\n\n  @media all and (max-width: 980px) {\n    width: 100%;\n  }\n\n  ul li {\n    &.bline {\n      display: none;\n    }\n  }\n\n  @media all and (max-width: 670px) {\n    ul {\n      padding: 0 0 40px;\n      justify-content: center;\n      li {\n        a {\n          padding: 7px 5px;\n        }\n        &.bline {\n          display: block;\n          flex-basis: 100%;\n        }\n      }\n    }\n  }\n"]);
+				return u = function() {
+					return n
+				}, n
+			}
+
+			function m() {
+				let n = (0, o.Z)(["\n  display: block;\n  font-size: 11px;\n  line-height: 18px;\n  letter-spacing: 2px;\n  color: #fff;\n  opacity: 0.5;\n  padding: 0 15px;\n\n  @media all and (max-width: 1160px) {\n    padding: 0 8px;\n  }\n\n  @media all and (max-width: 360px) {\n    padding: 0 2px;\n  }\n"]);
+				return m = function() {
+					return n
+				}, n
+			}
+
+			function g() {
+				let n = (0, o.Z)(["\n  opacity: 0.5;\n  text-align: right;\n  padding: 0 5px 0 0;\n\n  p {\n    letter-spacing: 0.3em;\n    color: #fff;\n  }\n\n  @media all and (max-width: 1100px) {\n    text-align: center;\n  }\n"]);
+				return g = function() {
+					return n
+				}, n
+			}
+
+			function C() {
+				let n = (0, o.Z)(["\n  display: flex;\n  padding: 15px 0 0;\n  margin: 0 -5px 0 0;\n"]);
+				return C = function() {
+					return n
+				}, n
+			}
+
+			function b() {
+				let n = (0, o.Z)(["\n  position: relative;\n  display: block;\n  padding: 11px 10px;\n  color: #fff;\n  &.instagram,\n  &.discord {\n    img {\n      width: 14px;\n    }\n  }\n  img {\n    position: relative;\n    z-index: 1;\n    width: 16px;\n  }\n\n  @media (pointer: fine) {\n    &::before {\n      content: ' ';\n      width: 100%;\n      height: 35px;\n      left: 0;\n      top: 0;\n      position: absolute;\n      background: #242424;\n      transition: transform 0.3s cubic-bezier(0.25, 0.005, 0.24, 0.905);\n      transform-origin: top center;\n      transform: scaleY(0) translateZ(0);\n    }\n    &.medium,\n    &.discord {\n      &::before {\n        transform-origin: bottom center;\n      }\n    }\n    &:hover {\n      &::before {\n        transform: scaleY(1) translateZ(0);\n      }\n    }\n  }\n"]);
+				return b = function() {
+					return n
+				}, n
+			}
+			let w = s.ZP.footer.withConfig({
+					componentId: "sc-5ddb6cc7-0"
+				})(d()),
+				j = s.ZP.div.withConfig({
+					componentId: "sc-5ddb6cc7-1"
+				})(c()),
+				v = s.ZP.div.withConfig({
+					componentId: "sc-5ddb6cc7-2"
+				})(p()),
+				y = s.ZP.div.withConfig({
+					componentId: "sc-5ddb6cc7-3"
+				})(f(), l.tI),
+				Z = s.ZP.div.withConfig({
+					componentId: "sc-5ddb6cc7-4"
+				})(x()),
+				_ = s.ZP.div.withConfig({
+					componentId: "sc-5ddb6cc7-5"
+				})(h()),
+				k = s.ZP.div.withConfig({
+					componentId: "sc-5ddb6cc7-6"
+				})(u(), l.tI),
+				I = s.ZP.div.withConfig({
+					componentId: "sc-5ddb6cc7-7"
+				})(m()),
+				B = s.ZP.div.withConfig({
+					componentId: "sc-5ddb6cc7-8"
+				})(g()),
+				E = s.ZP.ul.withConfig({
+					componentId: "sc-5ddb6cc7-9"
+				})(C()),
+				R = s.ZP.a.withConfig({
+					componentId: "sc-5ddb6cc7-10"
+				})(b());
+			var S = t(5763);
+
+			function F() {
+				let n = (0, o.Z)(["\n  color: #f9f9f9;\n  display: flex;\n  align-items: center;\n  h3 {\n    font-size: 20px;\n  }\n  p {\n    padding: 5px 0 0;\n  }\n\n  .metavtop {\n    margin: 0 0 0 20px;\n    width: 160px;\n    button {\n      height: 36px;\n      padding: 0 20px;\n      background: #242424;\n      color: #fff;\n    }\n  }\n\n  @media all and (max-width: 1100px) {\n    width: 100%;\n    justify-content: center;\n    padding: 80px 0;\n    text-align: center;\n    flex-wrap: wrap;\n\n    .metavtop {\n      margin: 0 0 0 30px;\n    }\n  }\n\n  @media all and (max-width: 690px) {\n    padding: 0px 0 65px;\n    .metavtop {\n      margin: 15px 0 0;\n      width: 100%;\n      & > div {\n        width: 160px;\n        margin: 0 auto;\n      }\n    }\n  }\n"]);
+				return F = function() {
+					return n
+				}, n
+			}
+			let N = s.ZP.div.withConfig({
+				componentId: "sc-6149a2da-0"
+			})(F());
+			var L = t(4219),
+				M = t(5683),
+				z = t(6955),
+				P = t(1163),
+				O = t(5518);
+			let A = () => {
+					let n = (0, P.useRouter)();
+					return(0, i.jsx)(N, {
+						children: "/" === n.pathname ? (0, i.jsxs)(i.Fragment, {
+							children: [(0, i.jsxs)("div", {
+								children: [(0, i.jsx)("h3", {
+									children: "TRY THE EXPERIENCE"
+								}), (0, i.jsx)("p", {
+									className: "subtitle",
+									children: "Explore the teaser microverse."
+								})]
+							}), (0, i.jsx)("div", {
+								className: "metavtop",
+								children: (0, i.jsx)(S.Z, {
+									action: () => {
+										document.body.classList.add("playingexp"), (0, L.KG)({
+											testExperience: !0
+										}), z.QF.gameplay.value = 1, z.QF.gameplay.smooth = 1, (0, z.IW)({
+											activateArmy: !0
+										}), M.y.setState({
+											disableScrollEvent: !0
+										}), O.tq && !(O.UA && O.gn) && document.documentElement.requestFullscreen()
+									},
+									label: "CLICK HERE"
+								})
+							})]
+						}) : null
+					})
+				},
+				G = n => {
+					let {
+						color: e = "white"
+					} = n;
+					return(0, i.jsxs)("svg", {
+						width: "216",
+						height: "50",
+						viewBox: "0 0 216 50",
+						fill: "none",
+						xmlns: "http://www.w3.org/2000/svg",
+						role: "img",
+						"aria-label": "logo meta ninjaz ",
+						children: [(0, i.jsx)("path", {
+							fillRule: "evenodd",
+							clipRule: "evenodd",
+							d: "M15.8899 7.83841C12.0539 7.83841 10.1612 10.0266 10.1612 11.8667C10.1612 12.6906 10.581 13.4865 11.6929 14.2411C12.8363 15.0172 14.5479 15.6131 16.6026 15.9153C18.8434 16.2448 21.2037 16.7409 23.0236 17.8614C23.9674 18.4425 24.8082 19.2154 25.4045 20.2498C26.0029 21.2881 26.2934 22.4834 26.2934 23.8133C26.2934 26.2 24.9735 28.2019 23.1557 29.5382C21.3371 30.8752 18.9162 31.6444 16.3259 31.6444C13.7357 31.6444 11.3148 30.8752 9.49609 29.5382C7.67835 28.2019 6.3584 26.2 6.3584 23.8133C6.3584 22.7632 7.20968 21.9119 8.25978 21.9119C9.30988 21.9119 10.1612 22.7632 10.1612 23.8133C10.1612 24.7016 10.6469 25.6644 11.7485 26.4743C12.8492 27.2835 14.4614 27.8416 16.3259 27.8416C18.1905 27.8416 19.8026 27.2835 20.9033 26.4743C22.005 25.6644 22.4907 24.7016 22.4907 23.8133C22.4907 23.0504 22.3289 22.529 22.1098 22.1488C21.8885 21.7649 21.5466 21.4178 21.0299 21.0996C19.9285 20.4215 18.2557 20.002 16.0493 19.6776C13.6566 19.3257 11.3352 18.5943 9.55736 17.3877C7.74803 16.1597 6.3584 14.3177 6.3584 11.8667C6.3584 7.15704 10.8163 4.03564 15.8899 4.03564C19.3797 4.03564 23.2751 5.71163 24.9823 10.1861C25.3567 11.1672 24.8648 12.266 23.8837 12.6404C22.9025 13.0147 21.8037 12.5228 21.4294 11.5417C20.4084 8.86567 18.1814 7.83841 15.8899 7.83841Z",
+							fill: e
+						}), (0, i.jsx)("path", {
+							d: "M43.0596 7.0809C42.4911 6.27465 41.3854 6.03629 40.6139 6.65111C37.4516 9.17121 35.4248 13.0558 35.4248 17.4138C35.4248 25.0103 41.583 31.1685 49.1795 31.1685C56.776 31.1685 62.9342 25.0103 62.9342 17.4138C62.9342 13.016 60.8701 9.10014 57.6579 6.58225C56.8877 5.97852 55.7929 6.21755 55.2275 7.01632C54.5841 7.92523 54.8857 9.18391 55.7243 9.91658C57.8123 11.7409 59.1314 14.4233 59.1314 17.4138C59.1314 22.9101 54.6758 27.3658 49.1795 27.3658C43.6832 27.3658 39.2276 22.9101 39.2276 17.4138C39.2276 14.4517 40.5217 11.7918 42.5754 9.96877C43.4029 9.23418 43.6972 7.98525 43.0596 7.0809Z",
+							fill: e
+						}), (0, i.jsx)("g", {
+							opacity: "0.5",
+							filter: "url(#filter0_f_2076_11180)",
+							children: (0, i.jsx)("path", {
+								d: "M49.9222 8.53704C49.6949 8.78948 49.299 8.78948 49.0716 8.53704L45.9759 5.09962C45.6442 4.73134 45.9055 4.14424 46.4012 4.14424L52.5927 4.14424C53.0883 4.14424 53.3497 4.73134 53.018 5.09963L49.9222 8.53704Z",
+								fill: "#09F8F8"
+							})
+						}), (0, i.jsx)("g", {
+							filter: "url(#filter1_di_2076_11180)",
+							children: (0, i.jsx)("path", {
+								d: "M49.9646 8.34685C49.7366 8.6699 49.2574 8.6699 49.0294 8.34685L46.6999 5.04666C46.4322 4.66753 46.7034 4.14424 47.1675 4.14424L51.8265 4.14424C52.2906 4.14424 52.5618 4.66753 52.2941 5.04666L49.9646 8.34685Z",
+								fill: "#ff8800"
+							})
+						}), (0, i.jsx)("g", {
+							opacity: "0.2",
+							filter: "url(#filter2_f_2076_11180)",
+							children: (0, i.jsx)("path", {
+								d: "M53.8782 6.04875C53.8782 6.16704 50.0843 5.92345 50.0402 6.02155C49.9381 6.24891 49.733 6.40414 49.4967 6.40414C49.2604 6.40414 49.0554 6.24891 48.9533 6.02155C48.9092 5.92345 45.1152 6.04875 45.1152 5.93046C45.1152 5.81218 48.9092 5.93748 48.9533 5.83937C49.0554 5.61202 49.2604 5.45679 49.4967 5.45679C49.733 5.45679 49.9381 5.61202 50.0402 5.83937C50.0843 5.93748 53.8782 5.93046 53.8782 6.04875Z",
+								fill: "#79FEFF"
+							})
+						}), (0, i.jsx)("path", {
+							d: "M85.8196 27.7422C91.3159 27.7422 95.7715 23.2866 95.7715 17.7903L95.7715 5.93729C95.7715 4.88718 96.6227 4.03565 97.6729 4.03565C98.723 4.03564 99.5742 4.88691 99.5742 5.93701L99.5743 17.7903C99.5743 25.3868 93.4161 31.545 85.8196 31.545C78.2231 31.545 72.0649 25.3868 72.0649 17.7903V5.93709C72.0649 4.88699 72.9162 4.03564 73.9663 4.03564C75.0164 4.03564 75.8677 4.88699 75.8677 5.93709L75.8677 17.7903C75.8677 23.2866 80.3233 27.7422 85.8196 27.7422Z",
+							fill: e
+						}), (0, i.jsx)("path", {
+							fillRule: "evenodd",
+							clipRule: "evenodd",
+							d: "M122.494 7.90701C116.998 7.90701 112.543 12.3626 112.543 17.8589C112.543 23.3552 116.998 27.8108 122.494 27.8108C127.991 27.8108 132.446 23.3552 132.446 17.8589C132.446 12.3626 127.991 7.90701 122.494 7.90701ZM108.74 17.8589C108.74 10.2624 114.898 4.10425 122.494 4.10425C130.091 4.10425 136.249 10.2624 136.249 17.8589C136.249 25.4554 130.091 31.6136 122.494 31.6136C114.898 31.6136 108.74 25.4554 108.74 17.8589Z",
+							fill: e
+						}), (0, i.jsx)("path", {
+							fillRule: "evenodd",
+							clipRule: "evenodd",
+							d: "M134.347 15.8257C135.397 15.8257 136.249 16.677 136.249 17.7271V31.7604C136.249 39.3569 130.09 45.5151 122.494 45.5151C116.25 45.5151 110.983 41.3566 109.301 35.6624C109.004 34.6553 109.579 33.5977 110.586 33.3003C111.593 33.0028 112.651 33.5781 112.948 34.5852C114.166 38.7073 117.981 41.7123 122.494 41.7123C127.99 41.7123 132.446 37.2567 132.446 31.7604V17.7271C132.446 16.677 133.297 15.8257 134.347 15.8257Z",
+							fill: e
+						}), (0, i.jsx)("g", {
+							opacity: "0.5",
+							filter: "url(#filter3_f_2076_11180)",
+							children: (0, i.jsx)("path", {
+								d: "M132.733 4.76477C132.477 4.48568 132.675 4.03562 133.054 4.03562L136.416 4.03562C136.656 4.03562 136.851 4.23043 136.851 4.47075L136.851 8.13847C136.851 8.5353 136.363 8.72502 136.095 8.43249L132.733 4.76477Z",
+								fill: "#09F8F8"
+							})
+						}), (0, i.jsx)("g", {
+							filter: "url(#filter4_di_2076_11180)",
+							children: (0, i.jsx)("path", {
+								d: "M132.733 4.76477C132.477 4.48568 132.675 4.03562 133.054 4.03562L136.416 4.03562C136.656 4.03562 136.851 4.23043 136.851 4.47075L136.851 8.13847C136.851 8.5353 136.363 8.72502 136.095 8.43249L132.733 4.76477Z",
+								fill: "#ff8800"
+							})
+						}), (0, i.jsx)("path", {
+							fillRule: "evenodd",
+							clipRule: "evenodd",
+							d: "M159.246 7.83841C153.75 7.83841 149.294 12.294 149.294 17.7903C149.294 23.2866 153.75 27.7422 159.246 27.7422C161.328 27.7422 163.255 27.1051 164.851 26.0154C165.718 25.4231 166.901 25.646 167.493 26.5131C168.085 27.3803 167.862 28.5634 166.995 29.1556C164.788 30.6632 162.117 31.545 159.246 31.545C151.649 31.545 145.491 25.3868 145.491 17.7903C145.491 10.1938 151.649 4.03564 159.246 4.03564C166.842 4.03564 173.001 10.1938 173.001 17.7903V19.6917L159.246 19.6917C158.196 19.6917 157.345 18.8404 157.345 17.7903C157.345 16.7402 158.196 15.8889 159.246 15.8889L169.016 15.8889C168.129 11.3021 164.092 7.83841 159.246 7.83841Z",
+							fill: e
+						}), (0, i.jsx)("path", {
+							fillRule: "evenodd",
+							clipRule: "evenodd",
+							d: "M195.887 7.83841C190.39 7.83841 185.935 12.294 185.935 17.7903L185.935 29.6434C185.935 29.6434 185.935 29.6436 184.034 29.6436L185.935 29.6434C185.935 30.6935 185.083 31.545 184.033 31.545C182.983 31.545 182.132 30.6937 182.132 29.6436L184.033 29.6436C182.132 29.6436 182.132 29.6437 182.132 29.6436L182.132 7.32975C182.132 6.27965 182.983 5.42837 184.033 5.42837C185.083 5.42837 185.935 6.27965 185.935 7.32975V8.29552C188.439 5.67088 191.972 4.03564 195.887 4.03564C203.483 4.03564 209.641 10.1938 209.641 17.7903V29.6436C209.641 29.6436 209.641 29.6436 207.74 29.6436C205.838 29.6436 205.838 29.6436 205.838 29.6436V17.7903C205.838 12.294 201.383 7.83841 195.887 7.83841ZM207.74 31.545C206.69 31.545 205.838 30.6937 205.838 29.6436L207.74 29.6436L209.641 29.6436C209.641 30.6937 208.79 31.545 207.74 31.545Z",
+							fill: e
+						}), (0, i.jsxs)("defs", {
+							children: [(0, i.jsxs)("filter", {
+								id: "filter0_f_2076_11180",
+								x: "42.2751",
+								y: "0.591722",
+								width: "14.4435",
+								height: "11.6872",
+								filterUnits: "userSpaceOnUse",
+								colorInterpolationFilters: "sRGB",
+								children: [(0, i.jsx)("feFlood", {
+									floodOpacity: "0",
+									result: "BackgroundImageFix"
+								}), (0, i.jsx)("feBlend", {
+									mode: "normal",
+									in : "SourceGraphic",
+									in2: "BackgroundImageFix",
+									result: "shape"
+								}), (0, i.jsx)("feGaussianBlur", {
+									stdDeviation: "1.77628",
+									result: "effect1_foregroundBlur_2076_11180"
+								})]
+							}), (0, i.jsxs)("filter", {
+								id: "filter1_di_2076_11180",
+								x: "45.8837",
+								y: "3.43377",
+								width: "7.22669",
+								height: "5.86585",
+								filterUnits: "userSpaceOnUse",
+								colorInterpolationFilters: "sRGB",
+								children: [(0, i.jsx)("feFlood", {
+									floodOpacity: "0",
+									result: "BackgroundImageFix"
+								}), (0, i.jsx)("feColorMatrix", { in : "SourceAlpha", type: "matrix", values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0", result: "hardAlpha"
+								}), (0, i.jsx)("feOffset", {}), (0, i.jsx)("feGaussianBlur", {
+									stdDeviation: "0.355256"
+								}), (0, i.jsx)("feComposite", {
+									in2: "hardAlpha",
+									operator: "out"
+								}), (0, i.jsx)("feColorMatrix", {
+									type: "matrix",
+									values: "0 0 0 0 0.427451 0 0 0 0 0.866667 0 0 0 0 0.92549 0 0 0 1 0"
+								}), (0, i.jsx)("feBlend", {
+									mode: "normal",
+									in2: "BackgroundImageFix",
+									result: "effect1_dropShadow_2076_11180"
+								}), (0, i.jsx)("feBlend", {
+									mode: "normal",
+									in : "SourceGraphic",
+									in2: "effect1_dropShadow_2076_11180",
+									result: "shape"
+								}), (0, i.jsx)("feColorMatrix", { in : "SourceAlpha", type: "matrix", values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0", result: "hardAlpha"
+								}), (0, i.jsx)("feOffset", {}), (0, i.jsx)("feGaussianBlur", {
+									stdDeviation: "0.473675"
+								}), (0, i.jsx)("feComposite", {
+									in2: "hardAlpha",
+									operator: "arithmetic",
+									k2: "-1",
+									k3: "1"
+								}), (0, i.jsx)("feColorMatrix", {
+									type: "matrix",
+									values: "0 0 0 0 0.427812 0 0 0 0 0.865338 0 0 0 0 0.925 0 0 0 1 0"
+								}), (0, i.jsx)("feBlend", {
+									mode: "normal",
+									in2: "shape",
+									result: "effect2_innerShadow_2076_11180"
+								})]
+							}), (0, i.jsxs)("filter", {
+								id: "filter2_f_2076_11180",
+								x: "44.4047",
+								y: "4.74627",
+								width: "10.1842",
+								height: "2.36829",
+								filterUnits: "userSpaceOnUse",
+								colorInterpolationFilters: "sRGB",
+								children: [(0, i.jsx)("feFlood", {
+									floodOpacity: "0",
+									result: "BackgroundImageFix"
+								}), (0, i.jsx)("feBlend", {
+									mode: "normal",
+									in : "SourceGraphic",
+									in2: "BackgroundImageFix",
+									result: "shape"
+								}), (0, i.jsx)("feGaussianBlur", {
+									stdDeviation: "0.355256",
+									result: "effect1_foregroundBlur_2076_11180"
+								})]
+							}), (0, i.jsxs)("filter", {
+								id: "filter3_f_2076_11180",
+								x: "129.118",
+								y: "0.536175",
+								width: "11.2318",
+								height: "11.5378",
+								filterUnits: "userSpaceOnUse",
+								colorInterpolationFilters: "sRGB",
+								children: [(0, i.jsx)("feFlood", {
+									floodOpacity: "0",
+									result: "BackgroundImageFix"
+								}), (0, i.jsx)("feBlend", {
+									mode: "normal",
+									in : "SourceGraphic",
+									in2: "BackgroundImageFix",
+									result: "shape"
+								}), (0, i.jsx)("feGaussianBlur", {
+									stdDeviation: "1.74973",
+									result: "effect1_foregroundBlur_2076_11180"
+								})]
+							}), (0, i.jsxs)("filter", {
+								id: "filter4_di_2076_11180",
+								x: "131.918",
+								y: "3.33575",
+								width: "5.6327",
+								height: "5.93861",
+								filterUnits: "userSpaceOnUse",
+								colorInterpolationFilters: "sRGB",
+								children: [(0, i.jsx)("feFlood", {
+									floodOpacity: "0",
+									result: "BackgroundImageFix"
+								}), (0, i.jsx)("feColorMatrix", { in : "SourceAlpha", type: "matrix", values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0", result: "hardAlpha"
+								}), (0, i.jsx)("feOffset", {}), (0, i.jsx)("feGaussianBlur", {
+									stdDeviation: "0.349947"
+								}), (0, i.jsx)("feComposite", {
+									in2: "hardAlpha",
+									operator: "out"
+								}), (0, i.jsx)("feColorMatrix", {
+									type: "matrix",
+									values: "0 0 0 0 0.427451 0 0 0 0 0.866667 0 0 0 0 0.92549 0 0 0 1 0"
+								}), (0, i.jsx)("feBlend", {
+									mode: "normal",
+									in2: "BackgroundImageFix",
+									result: "effect1_dropShadow_2076_11180"
+								}), (0, i.jsx)("feBlend", {
+									mode: "normal",
+									in : "SourceGraphic",
+									in2: "effect1_dropShadow_2076_11180",
+									result: "shape"
+								}), (0, i.jsx)("feColorMatrix", { in : "SourceAlpha", type: "matrix", values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0", result: "hardAlpha"
+								}), (0, i.jsx)("feOffset", {}), (0, i.jsx)("feGaussianBlur", {
+									stdDeviation: "0.466596"
+								}), (0, i.jsx)("feComposite", {
+									in2: "hardAlpha",
+									operator: "arithmetic",
+									k2: "-1",
+									k3: "1"
+								}), (0, i.jsx)("feColorMatrix", {
+									type: "matrix",
+									values: "0 0 0 0 0.427812 0 0 0 0 0.865338 0 0 0 0 0.925 0 0 0 1 0"
+								}), (0, i.jsx)("feBlend", {
+									mode: "normal",
+									in2: "shape",
+									result: "effect2_innerShadow_2076_11180"
+								})]
+							})]
+						})]
+					})
+				},
+				T = () => (0, i.jsx)(E, {
+					children: [{
+						icon: "opensea",
+						to: "https://opensea.io/collection/meta ninjaz -genesis-collection",
+						width: "16px",
+						height: "14px"
+					}, {
+						icon: "element",
+						to: "https://www.element.market/collections/meta ninjaz -genesis-collection",
+						width: "14px",
+						height: "14px"
+					}, {
+						icon: "twitter",
+						to: "https://twitter.com/scrataco",
+						width: "16px",
+						height: "14px"
+					}, {
+						icon: "discord",
+						to: "https://discord.com/invite/tFrVHtzRMq",
+						width: "14px",
+						height: "15px"
+					}, {
+						icon: "instagram",
+						to: "https://www.instagram.com/scratametaverse/",
+						width: "14px",
+						height: "14px"
+					}].map((n, e) => (0, i.jsx)("li", {
+						children: (0, i.jsx)(R, {
+							href: n.to,
+							target: "_blank",
+							rel: "noreferrer",
+							className: n.icon,
+							children: (0, i.jsx)("img", {
+								width: n.width,
+								height: n.height,
+								src: "/sns/".concat(n.icon, ".svg"),
+								alt: n.icon
+							})
+						})
+					}, e))
+				}),
+				U = () => (0, i.jsxs)(y, {
+					children: [(0, i.jsxs)("ul", {
+						className: "tlinks",
+						children: [(0, i.jsx)("li", {
+							children: (0, i.jsx)("a", {
+								href: "https://alpha.meta ninjaz .co/",
+								target: "_blank",
+								rel: "noreferrer",
+								children: (0, i.jsxs)("span", {
+									children: [(0, i.jsx)("span", {
+										className: "tlinksov",
+										children: "METAVERSE"
+									}), (0, i.jsx)("span", {
+										className: "tlinksoh",
+										"aria-hidden": "true",
+										children: "METAVERSE"
+									})]
+								})
+							})
+						}), (0, i.jsx)("li", {
+							children: (0, i.jsx)("a", {
+								href: "https://drive.google.com/drive/folders/1oiHKTwFC_G30TyHdL9XGriezPCcXocjO?usp=sharing",
+								target: "_blank",
+								rel: "noreferrer",
+								children: (0, i.jsxs)("span", {
+									children: [(0, i.jsx)("span", {
+										className: "tlinksov",
+										children: "PRESS KIT"
+									}), (0, i.jsx)("span", {
+										className: "tlinksoh",
+										"aria-hidden": "true",
+										children: "PRESS KIT"
+									})]
+								})
+							})
+						})]
+					}), (0, i.jsx)(T, {})]
+				}),
+				V = () => {
+					let n = [{
+						label: "JOBS",
+						to: "/jobs"
+					}, {
+						label: "CONTACT",
+						to: "mailto:contact@meta ninjaz .co"
+					}, {
+						label: "PRIVACY POLICY",
+						to: "/privacy"
+					}, {
+						label: "TERMS & CONDITIONS",
+						to: "/terms-and-condition"
+					}];
+					return(0, i.jsxs)(_, {
+						children: [(0, i.jsx)(A, {}), (0, i.jsxs)(k, {
+							children: [(0, i.jsx)("ul", {
+								children: n.map((e, t) => (0, i.jsxs)(r.Fragment, {
+									children: [(0, i.jsxs)("li", {
+										children: [(0, i.jsx)("a", {
+											href: e.to,
+											children: e.label
+										}), t < n.length - 1 && (0, i.jsx)(I, {
+											children: "//"
+										})]
+									}), 1 === t && (0, i.jsx)("li", {
+										className: "bline"
+									})]
+								}, t))
+							}), (0, i.jsx)(B, {
+								children: (0, i.jsx)("p", {
+									className: "xs",
+									children: "\xa9scrata ALL RIGHTS RESERVED 2022"
+								})
+							})]
+						})]
+					})
+				},
+				D = () => {
+					let n = (0, r.useRef)();
+					return(0, i.jsxs)(w, {
+						ref: n,
+						className: "exphide",
+						children: [(0, i.jsxs)(v, {
+							children: [(0, i.jsx)(j, {
+								children: (0, i.jsx)("a", {
+									href: "/",
+									alt: "top page",
+									children: (0, i.jsx)(G, {})
+								})
+							}), (0, i.jsx)("div", {
+								className: "pisep",
+								children: (0, i.jsx)(a.Z, {})
+							}), (0, i.jsx)(U, {})]
+						}), (0, i.jsxs)(Z, {
+							children: [(0, i.jsx)("img", {
+								src: "/images/footer-web.webp",
+								alt: "WEB-FIRST METAVERSE",
+								loading: "lazy"
+							}), (0, i.jsx)("p", {
+								className: "subtitle",
+								children: "A BARRIER-FREE EXPERIENCE FOR MILLIONS OF USERS."
+							})]
+						}), (0, i.jsx)(V, {})]
+					})
+				};
+			var X = D
+		},
+		5763: function(n, e, t) {
+			t.d(e, {
+				Z: function() {
+					return u
+				}
+			});
+			var i = t(5893),
+				r = t(7297),
+				a = t(6892),
+				o = t(7379);
+
+			function s() {
+				let n = (0, r.Z)(["\n  padding: 3px;\n  border: 1px solid #efefef;\n  border-radius: 999px;\n  min-width: 157px;\n\n  &.iconNeon {\n    min-width: auto;\n    button {\n      padding: 0;\n      width: 43px;\n    }\n  }\n  .glowingborder {\n    padding: 1px;\n    border-radius: 999px;\n    background: linear-gradient(272.29deg, #ff8800 15.21%, #6df8f8 76%);\n    box-shadow: 0px 0px 4px 1px rgba(109, 248, 248, 0.6);\n  }\n\n  &.anim {\n    border-color: transparent;\n    button,\n    .glowingborder {\n      transform: scaleX(0) translateZ(0);\n    }\n    .nbts {\n      transform: translate3d(0, 100%, 0);\n    }\n    opacity: 0;\n    transition: border-color 0.2s cubic-bezier(0.25, 0.005, 0.24, 0.905) 0s,\n      opacity 0.3s cubic-bezier(0.25, 0.005, 0.24, 0.905) 0.1s;\n    button,\n    .glowingborder {\n      transition: transform 0.7s cubic-bezier(0.6, 0.04, 0.98, 0.335) 0.1s;\n    }\n\n    button {\n      transition-delay: 0.1s;\n    }\n\n    .nbts {\n      transition: transform 0.6s cubic-bezier(0.25, 0.005, 0.24, 0.905) 0s;\n    }\n  }\n\n  &.active {\n    opacity: 1;\n    transition: border-color 0.2s cubic-bezier(0.25, 0.005, 0.24, 0.905) 0.75s,\n      opacity 0s cubic-bezier(0.25, 0.005, 0.24, 0.905) 0s;\n    border-color: #efefef;\n    button,\n    .glowingborder {\n      transition: transform 0.5s cubic-bezier(0.25, 0.005, 0.24, 0.905) 0.4s;\n      transform: scaleX(1) translateZ(0);\n    }\n\n    button {\n      transition-delay: 0.45s;\n    }\n\n    .nbts {\n      transition: transform 0.6s cubic-bezier(0.25, 0.005, 0.24, 0.905) 0.75s;\n      transform: translate3d(0, 0%, 0);\n    }\n  }\n"]);
+				return s = function() {
+					return n
+				}, n
+			}
+
+			function l() {
+				let n = (0, r.Z)(["\n  position: relative;\n  padding: 0 35px;\n  height: 43px;\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background: #fff;\n  color: ", ";\n  overflow: hidden;\n  font-size: 13px;\n  font-weight: 600;\n  line-height: 10px;\n  letter-spacing: 0.125em;\n\n  border-radius: 999px;\n\n  span {\n    position: relative;\n    z-index: 1;\n  }\n\n  .cvcov {\n    position: absolute;\n    left: 0;\n    top: 0;\n    width: 100%;\n    height: 100%;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    opacity: 0;\n    transform: scale(1.2) translateZ(0);\n    color: ", ";\n    svg path {\n      fill: #fff;\n    }\n  }\n\n  &.showaccent {\n    background: ", ";\n    color: ", ";\n\n    &::before {\n      background: ", ";\n      box-shadow: 0 0 8px 0 ", ";\n    }\n  }\n\n  &::before {\n    content: ' ';\n    position: absolute;\n    left: -1px;\n    top: -1px;\n    width: calc(100% + 2px);\n    height: calc(100% + 2px);\n    background: ", ";\n    box-shadow: 0 0 8px 0 ", ";\n    border-radius: 999px;\n    z-index: 0;\n    transition: opacity 0.7s cubic-bezier(0.25, 0.005, 0.24, 0.905);\n    opacity: 0;\n  }\n\n  &.disable {\n    pointer-events: none !important;\n  }\n\n  @media (pointer: fine) {\n    span {\n      transition: transform 1s cubic-bezier(0.25, 0.005, 0.24, 0.905),\n        opacity 0.7s cubic-bezier(0.25, 0.005, 0.24, 0.905);\n    }\n    &:hover {\n      &::before {\n        opacity: 1;\n      }\n      .cvcob {\n        opacity: 0;\n        transform: scale(0.8) translateZ(0);\n      }\n      .cvcov {\n        opacity: 1;\n        transform: scale(1) translateZ(0);\n      }\n    }\n  }\n"]);
+				return l = function() {
+					return n
+				}, n
+			}
+
+			function d() {
+				let n = (0, r.Z)(["\n  position: relative;\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n"]);
+				return d = function() {
+					return n
+				}, n
+			}
+			let c = o.ZP.div.withConfig({
+					componentId: "sc-57d0191a-0"
+				})(s()),
+				p = o.ZP.button.withConfig({
+					componentId: "sc-57d0191a-1"
+				})(l(), a.sB, a.sB, a.sB, a.tI, a.tI, a.tI, a.tI, a.tI),
+				f = o.ZP.div.withConfig({
+					componentId: "sc-57d0191a-2"
+				})(d());
+			var x = t(7294);
+			let h = n => {
+				let {
+					label: e,
+					action: t,
+					icon: r,
+					animate: a = !1,
+					animateDelay: o = 0,
+					active: s = !0,
+					disable: l = !1,
+					...d
+				} = n, h = (0, x.useRef)();
+				return(0, i.jsx)(c, {
+					className: "".concat(r ? "iconNeon" : "", " ").concat(a ? "anim" : "", " ").concat(s ? "active" : ""),
+					children: (0, i.jsx)("div", {
+						className: "glowingborder",
+						children: (0, i.jsx)(p, {
+							ref: h,
+							onClick: t,
+							className: "".concat(l ? "disable" : ""),
+							...d,
+							children: (0, i.jsxs)(f, {
+								className: "nbts",
+								children: [(0, i.jsxs)("span", {
+									className: "cvcob",
+									children: [e, r]
+								}), (0, i.jsxs)("span", {
+									"aria-hidden": !0,
+									className: "cvcov",
+									children: [e, r]
+								})]
+							})
+						})
+					})
+				})
+			};
+			var u = h
+		},
+		6892: function(n, e, t) {
+			t.d(e, {
+				sB: function() {
+					return i
+				},
+				tI: function() {
+					return r
+				}
+			});
+			let i = "#242424",
+				r = "#ff8800"
+		},
+		6615: function(n, e, t) {
+			t.d(e, {
+				Z: function() {
+					return d
+				}
+			});
+			var i = t(5893),
+				r = t(7297),
+				a = t(7379);
+
+			function o() {
+				let n = (0, r.Z)(["\n  display: flex;\n  width: 100%;\n  justify-content: space-between;\n  position: relative;\n  z-index: 1;\n\n  .bord {\n    height: 2px;\n    background: #e1e1e1;\n    width: calc(100% - 16px);\n    transform-origin: left center;\n    transform: scaleX(0) translateZ(0);\n  }\n\n  .bord,\n  .point {\n    transition: transform 0.2s cubic-bezier(0.25, 0.005, 0.24, 0.905) 0s;\n  }\n\n  .point {\n    display: block;\n    width: 2px;\n    height: 2px;\n    background: #ff8800;\n    transform: scale(0) rotate(180deg) translateZ(0);\n  }\n"]);
+				return o = function() {
+					return n
+				}, n
+			}
+			let s = a.ZP.div.withConfig({
+					componentId: "sc-5a0ad03-0"
+				})(o()),
+				l = () => (0, i.jsxs)(s, {
+					className: "separator",
+					children: [(0, i.jsx)("div", {
+						className: "point"
+					}), (0, i.jsx)("div", {
+						className: "bord"
+					}), (0, i.jsx)("div", {
+						className: "point pointr"
+					})]
+				});
+			var d = l
+		}
+	}
+]);

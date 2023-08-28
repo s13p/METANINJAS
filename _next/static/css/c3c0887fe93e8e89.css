@@ -1,0 +1,622 @@
+/*! tailwindcss v2.2.4 | MIT License | https://tailwindcss.com */
+
+/*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@400;600&display=swap");
+:after,
+:before {
+    box-sizing: border-box
+}
+
+html {
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+hr {
+    height: 0;
+    color: inherit
+}
+
+abbr[title] {
+    -webkit-text-decoration: underline dotted;
+    text-decoration: underline dotted
+}
+
+b,
+strong {
+    font-weight: bolder
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: ui-monospace, SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+    font-size: 1em
+}
+
+small {
+    font-size: 80%
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sub {
+    bottom: -.25em
+}
+
+sup {
+    top: -.5em
+}
+
+table {
+    text-indent: 0;
+    border-color: inherit
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0
+}
+
+select {
+    text-transform: none
+}
+
+[type=button],
+[type=reset],
+[type=submit],
+button {
+    -webkit-appearance: button
+}
+
+button:focus {
+    outline: 0
+}
+
+::-moz-focus-inner {
+    border-style: none;
+    padding: 0
+}
+
+:-moz-focusring {
+    outline: 1px dotted ButtonText
+}
+
+:-moz-ui-invalid {
+    box-shadow: none
+}
+
+legend {
+    padding: 0
+}
+
+progress {
+    vertical-align: baseline
+}
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+    height: auto
+}
+
+[type=search] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px
+}
+
+::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+summary {
+    display: list-item
+}
+
+blockquote,
+dd,
+dl,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+pre {
+    margin: 0
+}
+
+button {
+    cursor: pointer;
+    background-color: transparent;
+    background-image: none
+}
+
+fieldset,
+ol,
+ul {
+    margin: 0;
+    padding: 0
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+html {
+    line-height: 1.5
+}
+
+body {
+    font-family: inherit;
+    line-height: inherit
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+    border: 0 solid
+}
+
+img {
+    border-style: solid
+}
+
+[role=button],
+button {
+    cursor: pointer
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit
+}
+
+a {
+    text-decoration: inherit
+}
+
+a,
+button {
+    color: inherit
+}
+
+button {
+    padding: 0;
+    line-height: inherit
+}
+
+audio,
+canvas,
+embed,
+iframe,
+img,
+object,
+svg,
+video {
+    display: block;
+    vertical-align: middle
+}
+
+img,
+video {
+    max-width: 100%;
+    height: auto
+}
+
+*,
+:after,
+:before {
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    --tw-border-opacity: 1;
+    border-color: rgba(229, 231, 235, var(--tw-border-opacity));
+    --tw-shadow: 0 0 #0000;
+    --tw-ring-inset: var(--tw-empty, /*!*/
+    /*!*/
+    );
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(246, 59, 59, 0.5) !important;
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-blur: var(--tw-empty, /*!*/
+    /*!*/
+    );
+    --tw-brightness: var(--tw-empty, /*!*/
+    /*!*/
+    );
+    --tw-contrast: var(--tw-empty, /*!*/
+    /*!*/
+    );
+    --tw-grayscale: var(--tw-empty, /*!*/
+    /*!*/
+    );
+    --tw-hue-rotate: var(--tw-empty, /*!*/
+    /*!*/
+    );
+    --tw-invert: var(--tw-empty, /*!*/
+    /*!*/
+    );
+    --tw-saturate: var(--tw-empty, /*!*/
+    /*!*/
+    );
+    --tw-sepia: var(--tw-empty, /*!*/
+    /*!*/
+    );
+    --tw-drop-shadow: var(--tw-empty, /*!*/
+    /*!*/
+    );
+    --tw-filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+    --tw-backdrop-blur: var(--tw-empty, /*!*/
+    /*!*/
+    );
+    --tw-backdrop-brightness: var(--tw-empty, /*!*/
+    /*!*/
+    );
+    --tw-backdrop-contrast: var(--tw-empty, /*!*/
+    /*!*/
+    );
+    --tw-backdrop-grayscale: var(--tw-empty, /*!*/
+    /*!*/
+    );
+    --tw-backdrop-hue-rotate: var(--tw-empty, /*!*/
+    /*!*/
+    );
+    --tw-backdrop-invert: var(--tw-empty, /*!*/
+    /*!*/
+    );
+    --tw-backdrop-opacity: var(--tw-empty, /*!*/
+    /*!*/
+    );
+    --tw-backdrop-saturate: var(--tw-empty, /*!*/
+    /*!*/
+    );
+    --tw-backdrop-sepia: var(--tw-empty, /*!*/
+    /*!*/
+    );
+    --tw-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)
+}
+
+@media (min-width:768px) {
+    .md\:block {
+        display: block
+    }
+    .md\:text-base {
+        font-size: 1rem;
+        line-height: 1.5rem
+    }
+}
+
+h1,
+h2 {
+    font-size: 50px;
+    line-height: 52px;
+    letter-spacing: .205em
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 400
+}
+
+h3 {
+    font-size: 23px;
+    line-height: 125%
+}
+
+h3,
+h4 {
+    letter-spacing: .16em
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px
+}
+
+h5 {
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: .07em
+}
+
+h5,
+h6 {
+    font-size: 12px
+}
+
+h6 {
+    line-height: 16px
+}
+
+p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    letter-spacing: .07em;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text
+}
+
+p.sml {
+    color: #000
+}
+
+p.sml,
+p.subtitle {
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: .07em
+}
+
+p.subtitle {
+    font-weight: 700
+}
+
+p.xs {
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 14px;
+    letter-spacing: .03em;
+    color: #242424
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: Rubik, Open Sans, Helvetica, Arial, sans-serif
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text
+}
+
+::-moz-selection {
+    color: #000;
+    background: #ff8800
+}
+
+::selection {
+    color: #000;
+    background: #ff8800
+}
+
+@font-face {
+    font-family: Akrobat;
+    src: url(/fonts/Akrobat-Regular.woff2) format("woff2"), url(/fonts/Akrobat-Regular.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Akrobat;
+    src: url(/fonts/Akrobat-ExtraBold.woff2) format("woff2"), url(/fonts/Akrobat-ExtraBold.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+.rubik {
+    font-family: Rubik, Open Sans, Helvetica, Arial, sans-serif
+}
+
+.akrobat {
+    font-family: Akrobat, Rubik, Open Sans, Helvetica, Arial, sans-serif
+}
+
+body {
+    color: #ffffff;
+    background-color: #161616 !important;
+    -webkit-overflow-scrolling: touch;
+    font-family: Open Sans, Noto Sans, Noto Sans JP, Helvetica, Arial, sans-serif;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased
+}
+
+:root {
+    --app-height: 100vh
+}
+
+body,
+html {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none
+}
+
+* {
+    box-sizing: border-box
+}
+
+body.playingexp .exphide {
+    visibility: hidden;
+    pointer-events: none
+}
+
+canvas {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.error404,
+.errorsupport {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center
+}
+
+.error404 h2 {
+    font-size: 90px
+}
+
+.error404 p {
+    padding: 15px 0 20px
+}
+
+@keyframes float {
+    0% {
+        transform: translateZ(0)
+    }
+    50% {
+        transform: translate3d(0, -20px, 0)
+    }
+    to {
+        transform: translateZ(0)
+    }
+}
+
+.img404 {
+    position: relative;
+    width: 320px;
+    height: 320px;
+    margin: 0 auto;
+    animation: float 6s ease-in-out infinite
+}
+
+.errorsupport p {
+    max-width: 400px
+}
+
+.backbtn {
+    padding: 30px 0 0;
+    max-width: 220px;
+    margin: 0 auto
+}
+
+.errorsupport .backbtn {
+    max-width: 270px;
+    padding: 10px 0 0
+}
+
+.errorsupport .subtitle {
+    padding: 5px 0
+}
+
+.errorsupport .img404 {
+    margin: 15px auto;
+    width: 280px;
+    height: 280px
+}
+
+@supports (padding:max(0px)) {
+    body,
+    footer,
+    header {
+        padding-left: min(0vmin, env(safe-area-inset-left));
+        padding-right: min(0vmin, env(safe-area-inset-right))
+    }
+}
+
+@media (max-width:600px) {
+    .error404 h2 {
+        font-size: 70px
+    }
+    .error404 p {
+        padding: 10px 0 20px
+    }
+    .img404 {
+        width: 260px;
+        height: 260px
+    }
+    .errorsupport .img404 {
+        width: 170px;
+        height: 170px
+    }
+    .errorsupport h2 {
+        font-size: 40px;
+        line-height: 40px
+    }
+    .errorsupport p {
+        padding-left: 15px;
+        padding-right: 15px
+    }
+}
+
+@media (max-width:360px) {
+    .error404 h2 {
+        font-size: 60px;
+        line-height: 40px
+    }
+    p {
+        font-size: 12px
+    }
+    .errorsupport h2 {
+        font-size: 32px;
+        line-height: 32px
+    }
+    .img404 {
+        width: 130px;
+        height: 130px
+    }
+    .errorsupport .img404 {
+        width: 100px;
+        height: 100px
+    }
+}
